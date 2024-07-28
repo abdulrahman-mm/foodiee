@@ -1,0 +1,92 @@
+main {
+  position: relative;
+  min-height: 1000px;
+  max-height: 500px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.map-image {
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/Map.webp);
+  opacity: 0.2;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.red_color {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 0, 30, 0.7);
+  clip-path: polygon(
+    28% 27%,
+    73% 0,
+    100% 0,
+    100% 70%,
+    100% 100%,
+    0 100%,
+    0% 70%,
+    0 15%
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.hero {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.iphone-div {
+  position: relative;
+  top:0;
+  left: 0;
+  height: 100%;
+  min-height: 550px;
+  width: 350px;
+  min-width: 350px;
+}
+
+.iphone-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  max-height: 550px;
+  max-width: 320px;
+  min-height: 550px;
+  min-width: 300px;
+}
+
+.iphone-video {
+  top: 0;
+  left: 0;
+  position: absolute;
+  margin-left: 10px;
+  z-index: 1;
+  border-radius: 50px;
+  height: 100%;
+  width: 100%;
+  max-height: 550px;
+  max-width: 300px;
+  min-height: 550px;
+  min-width: 300px;
+}
+
+.btn {
+  box-shadow: rgba(255, 0, 102, 0.7) 4px 4px 0 0, #ffffff 6px 6px 0 1px;
+}
+
