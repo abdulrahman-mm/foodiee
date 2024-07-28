@@ -6,14 +6,14 @@ import herovideo from "../assets/herovideo.mp4";
 
 function Hero() {
   return (
-    <main>
+    <main className="lg:h-custom-700 h-custom-1100">
       <div className="map-image"></div>
       <div className="red_color"></div>
 
-      <div className="hero flex flex-col lg:flex-row px-6 lg:px-20 lg:gap-10 justify-center items-center">
+      <div className="hero flex flex-col lg:flex-row px-5 lg:px-20 justify-center items-center">
         
         
-        <div className="iphone-div mt-16 mx-auto">
+        <div className="iphone-div mt-20 lg:mt-10">
           <video className="iphone-video " autoPlay muted loop>
             <source src={herovideo} type="video/mp4" />
           </video>
@@ -21,7 +21,7 @@ function Hero() {
           <img src={iphone} alt="iPhone" className="iphone-image" />
         </div>
 
-        <div className="second-div text-white lg:w-96 h-full text-center">
+        <div className="second-div text-white lg:w-96 h-full mt-20 text-center">
           <img
             className="h-8 w-20 mx-auto lg:mx-0 md-start"
             src={logo}

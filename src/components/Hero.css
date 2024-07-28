@@ -1,9 +1,11 @@
 main {
-  position: relative;
+  /* position: relative;
   min-height: 1000px;
   max-height: 500px;
   overflow: hidden;
-  width: 100%;
+  width: 100%; */
+  position: relative;
+  overflow: hidden;
 }
 
 .map-image {
